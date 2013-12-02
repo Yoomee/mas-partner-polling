@@ -6,7 +6,10 @@ gem 'rails', '3.2.15'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'partner_polling', :git => "https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git"
+github_auth = "ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic"
+gem 'partner_polling', :git => "https://#{github_auth}@github.com/moneyadviceservice/partner_polling.git"
+gem 'mas-build', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-build.git"
+gem 'mas-assets', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-assets.git"
 
 group :production do
   gem 'pg'
@@ -29,7 +32,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '2.1.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

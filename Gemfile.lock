@@ -1,4 +1,22 @@
 GIT
+  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/mas-assets.git
+  revision: 5878b807718cc9f2f5b7594944128eae41385162
+  specs:
+    mas-assets (1.0.0)
+      compass-rails (~> 1.0.3)
+      google-analytics-rails (~> 0.0.4)
+      jquery-rails (= 2.1.2)
+      jquery-rails-cdn
+      sass-rails (~> 3.2.3)
+      susy (~> 1.0.9)
+
+GIT
+  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/mas-build.git
+  revision: 2c06bf9c9b36617655646651376d8596a022ca23
+  specs:
+    mas-build (1.3.0)
+
+GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
   revision: ca36f8006e8380fc9d7675368eb8d042cc2a4ce6
   specs:
@@ -37,6 +55,7 @@ GEM
       multi_json (~> 1.0)
     arel (3.0.3)
     builder (3.0.4)
+    chunky_png (1.2.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -44,15 +63,25 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rails (1.0.3)
+      compass (>= 0.12.2, < 0.14)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    fssm (0.2.10)
+    google-analytics-rails (0.0.4)
     hike (1.2.3)
     i18n (0.6.5)
     journey (1.0.4)
-    jquery-rails (3.0.4)
-      railties (>= 3.0, < 5.0)
-      thor (>= 0.14, < 2.0)
+    jquery-rails (2.1.2)
+      railties (>= 3.1.0, < 5.0)
+      thor (~> 0.14)
+    jquery-rails-cdn (1.0.1)
+      jquery-rails
     json (1.8.1)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -97,6 +126,9 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     sqlite3 (1.3.8)
+    susy (1.0.9)
+      compass (>= 0.12.2)
+      sass (>= 3.2.0)
     thor (0.18.1)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -112,7 +144,9 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  jquery-rails
+  jquery-rails (= 2.1.2)
+  mas-assets!
+  mas-build!
   partner_polling!
   pg
   rails (= 3.2.15)
