@@ -1,3 +1,10 @@
+GIT
+  remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
+  revision: ca36f8006e8380fc9d7675368eb8d042cc2a4ce6
+  specs:
+    partner_polling (0.0.1)
+      rails (~> 3.2.13)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -106,6 +113,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
+  partner_polling!
   pg
   rails (= 3.2.15)
   sass-rails (~> 3.2.3)
