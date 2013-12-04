@@ -1,6 +1,6 @@
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/mas-assets.git
-  revision: 5878b807718cc9f2f5b7594944128eae41385162
+  revision: 90688a599d579785650fb30924bd962526e24839
   specs:
     mas-assets (1.0.0)
       compass-rails (~> 1.0.3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
-  revision: 808df9850e8bd7bd4aa55b4a685fc6171a9a88af
+  revision: fc0fe8e50d5a41b5925234f79ee3047e0b27afbc
   specs:
     partner_polling (0.0.1)
       rails (~> 3.2.13)
@@ -75,7 +75,7 @@ GEM
     fssm (0.2.10)
     google-analytics-rails (0.0.4)
     hike (1.2.3)
-    i18n (0.6.5)
+    i18n (0.6.9)
     journey (1.0.4)
     jquery-rails (2.1.2)
       railties (>= 3.1.0, < 5.0)
