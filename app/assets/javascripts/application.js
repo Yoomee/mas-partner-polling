@@ -18,8 +18,7 @@ $(document).ready(function(){
   $('a.resize-link').click(function(e){
     e.preventDefault();
     $('li.active').removeClass('active');
-    $('.iframe-wrapper').css('width', $(this).data().width);
-    $('.iframe-wrapper').css('height', $(this).data().height);
+    $('.iframe-wrapper').animate({width: $(this).data().width, height: $(this).data().height});
     $(this).parent().addClass('active');
   });
 });

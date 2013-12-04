@@ -1,8 +1,8 @@
 <div id='wrapper'>
 <%if @poll%>
 <ul>
-  <%[[300,250],[160,600],[120,300]].each do |width, height|%>
-    <li <%="class=active" if width == 300%>>
+  <%[[300,250], [160,600], [120,300]].each do |width, height|%>
+    <li <%="class=active" if width == 160%>>
       <a href='#' class='resize-link' data-width=<%=width%> data-height=<%=height%>><%=width%> x <%=height%></a>
     </li>
   <%end%>
