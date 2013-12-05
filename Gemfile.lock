@@ -18,9 +18,10 @@ GIT
 
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
-  revision: 1298c4eff1d1d5af095de6233f38db412a7d576c
+  revision: 43e190497b53dbfd69b6b81171be7bdf7fca878f
   specs:
     partner_polling (0.0.1)
+      formtastic-bootstrap
       rails (~> 3.2.13)
 
 GEM
@@ -72,6 +73,10 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    formtastic (2.2.1)
+      actionpack (>= 3.0)
+    formtastic-bootstrap (2.1.3)
+      formtastic (~> 2.2)
     fssm (0.2.10)
     google-analytics-rails (0.0.4)
     hike (1.2.3)
