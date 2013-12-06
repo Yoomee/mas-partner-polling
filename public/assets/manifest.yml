@@ -9,8 +9,8 @@ partner_polling/admin.js: partner_polling/admin-21d16693fa0b1d9f175778d5532dfa1d
 partner_polling/admin/index.js: partner_polling/admin-21d16693fa0b1d9f175778d5532dfa1d.js
 partner_polling/poll.js: partner_polling/poll-576eceb5d99cf1bd78ca65704f3287c0.js
 partner_polling/poll/index.js: partner_polling/poll-576eceb5d99cf1bd78ca65704f3287c0.js
-partner_polling/admin.css: partner_polling/admin-5edd3732d0023c8411c6a6af55b1622c.css
-partner_polling/admin/index.css: partner_polling/admin-5edd3732d0023c8411c6a6af55b1622c.css
+partner_polling/admin.css: partner_polling/admin-f1eb24f572453cbd9a3954bf4ad305e8.css
+partner_polling/admin/index.css: partner_polling/admin-f1eb24f572453cbd9a3954bf4ad305e8.css
 partner_polling/poll.css: partner_polling/poll-57f38d8f514cdd949cb7e70f8a6a020f.css
 partner_polling/poll/index.css: partner_polling/poll-57f38d8f514cdd949cb7e70f8a6a020f.css
 museo_slab_100-webfont.eot: museo_slab_100-webfont-05fdda83b091d685c53cabf896560381.eot
