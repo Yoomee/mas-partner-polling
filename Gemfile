@@ -8,6 +8,8 @@ gem 'rails', '3.2.15'
 
 github_auth = "ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic"
 gem 'partner_polling', :git => "https://#{github_auth}@github.com/moneyadviceservice/partner_polling.git"
+# gem 'partner_polling', :path => '../partner_polling'
+
 gem 'mas-build', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-build.git"
 gem 'mas-assets', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-assets.git"
 
