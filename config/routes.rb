@@ -4,6 +4,6 @@ MasPartnerPolling::Application.routes.draw do
     mount PartnerPolling::Engine => "/partner_polling", :as => 'partner_polling_engine'
   end
   
-  root :to => "home#index"
+  root :to => redirect('/en/partner_polling')
   
 end
