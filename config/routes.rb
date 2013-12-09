@@ -6,4 +6,6 @@ MasPartnerPolling::Application.routes.draw do
   
   root :to => redirect('/en/partner_polling')
   
+  match 'error' => "errors#index"
+
 end
