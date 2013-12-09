@@ -121,6 +121,8 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    rollbar (0.12.1)
+      multi_json (~> 1.5)
     sass (3.2.12)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -157,6 +159,7 @@ DEPENDENCIES
   partner_polling!
   pg
   rails (= 3.2.15)
+  rollbar
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
