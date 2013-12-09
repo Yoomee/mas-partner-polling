@@ -13,6 +13,8 @@ gem 'partner_polling', :git => "https://#{github_auth}@github.com/moneyadviceser
 gem 'mas-build', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-build.git"
 gem 'mas-assets', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-assets.git"
 
+gem 'newrelic_rpm'
+
 group :production do
   gem 'pg'
 end
