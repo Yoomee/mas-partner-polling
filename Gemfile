@@ -14,7 +14,6 @@ gem 'mas-build', :git => "https://#{github_auth}@github.com/moneyadviceservice/m
 gem 'mas-assets', :git => "https://#{github_auth}@github.com/moneyadviceservice/mas-assets.git"
 
 gem 'newrelic_rpm'
-gem 'rollbar'
 
 group :production do
   gem 'pg'
