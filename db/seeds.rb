@@ -3,7 +3,7 @@ partners = [
   PartnerPolling::Partner.create(:name => "Partner 2")
 ]
 
-poll = PartnerPolling::Poll.create(:question => "Are you worried about how Universal Credit may affect you?", :answer_1 => "Yes", :answer_2 => "No", :answer_3 => "Not sure")
+poll = PartnerPolling::Poll.create(:name => "Universal Credit", :question => "Are you worried about how Universal Credit may affect you?", :answer_1 => "Yes", :answer_2 => "No", :answer_3 => "Not sure")
 partners.each do |partner|
   widget = PartnerPolling::Widget.new(
     :poll => poll,
@@ -21,7 +21,7 @@ partners.each do |partner|
   widget.save
 end
 
-poll = PartnerPolling::Poll.create(:question => "Does 'Help to Buy' make you more likely to buy for the first time?", :answer_1 => "Yes", :answer_2 => "No", :answer_3 => "Not sure")
+poll = PartnerPolling::Poll.create(:name => "Help to Buy", :question => "Does 'Help to Buy' make you more likely to buy for the first time?", :answer_1 => "Yes", :answer_2 => "No", :answer_3 => "Not sure")
 partners.each do |partner|
   widget = PartnerPolling::Widget.new(
     :poll => poll,
@@ -39,7 +39,7 @@ partners.each do |partner|
   widget.save
 end
 
-poll = PartnerPolling::Poll.create(:question => "How has the Chancellor's Autumn Statement affected you?", :answer_1 => "I'm a \"winner\"", :answer_2 => "I lose out", :answer_3 => "It doesn't really impact me", :answer_4 => "I don't know how it affects me")
+poll = PartnerPolling::Poll.create(:name => "Chancellor's Autumn Statement", :question => "How has the Chancellor's Autumn Statement affected you?", :answer_1 => "I'm a \"winner\"", :answer_2 => "I lose out", :answer_3 => "It doesn't really impact me", :answer_4 => "I don't know how it affects me")
 partners.each do |partner|
   widget = PartnerPolling::Widget.new(
     :poll => poll,
