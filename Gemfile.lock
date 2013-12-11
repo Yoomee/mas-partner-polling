@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
-  revision: 48e78ff57fce17be7acdddf21759eba113e92c40
+  revision: 0298188198a7570f1e41f2cc68f66f1ab89fd595
   specs:
     partner_polling (0.0.1)
       formtastic-bootstrap
