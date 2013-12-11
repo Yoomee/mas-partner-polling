@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
-  revision: 0298188198a7570f1e41f2cc68f66f1ab89fd595
+  revision: f3b426394f6388f288145d98ac954b2472c17080
   specs:
     partner_polling (0.0.1)
       formtastic-bootstrap
@@ -64,12 +64,19 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
+    columnize (0.3.6)
     compass (0.12.2)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
     compass-rails (1.0.3)
       compass (>= 0.12.2, < 0.14)
+    debugger (1.6.1)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.3)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.3)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -150,6 +157,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  debugger
   jquery-rails (= 2.1.2)
   mas-assets!
   mas-build!
