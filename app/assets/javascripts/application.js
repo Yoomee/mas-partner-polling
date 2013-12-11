@@ -14,11 +14,13 @@
 //= require jquery_ujs
 //= require_tree .
 
+function dimensions() {
+  $('#dimensions').html('' + $('#iframe-wrapper iframe').width() + 'x' + $('#iframe-wrapper iframe').height());
+}
+
 $(document).ready(function(){
-  $('a.resize-link').click(function(e){
-    e.preventDefault();
-    $('li.active').removeClass('active');
-    $('.iframe-wrapper').animate({width: $(this).data().width, height: $(this).data().height});
-    $(this).parent().addClass('active');
+  dimensions();
+  $(window).resize(function () { 
+    dimensions();
   });
 });
