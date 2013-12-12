@@ -15,12 +15,13 @@ gem 'mas-assets', :git => "https://#{github_auth}@github.com/moneyadviceservice/
 
 gem 'newrelic_rpm'
 
+gem 'thin'
+
 group :production do
   gem 'pg'
 end
 
 group :development do
-  gem 'thin'
   gem 'sqlite3'
   gem 'debugger'
 end
