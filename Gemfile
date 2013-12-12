@@ -20,6 +20,7 @@ group :production do
 end
 
 group :development do
+  gem 'thin'
   gem 'sqlite3'
   gem 'debugger'
 end
