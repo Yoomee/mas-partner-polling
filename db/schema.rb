@@ -26,8 +26,9 @@ ActiveRecord::Schema.define(:version => 20131210102813) do
     t.string   "answer_2"
     t.string   "answer_3"
     t.string   "answer_4"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.boolean  "archived",   :default => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
   end
 
   create_table "partner_polling_votes", :force => true do |t|
@@ -56,8 +57,10 @@ ActiveRecord::Schema.define(:version => 20131210102813) do
     t.string   "color_4"
     t.text     "default_call_to_action_text"
     t.text     "default_call_to_action_url"
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
+    t.boolean  "logo",                        :default => true
+    t.boolean  "see_results",                 :default => true
+    t.datetime "created_at",                                    :null => false
+    t.datetime "updated_at",                                    :null => false
   end
 
   add_index "partner_polling_widgets", ["partner_id"], :name => "index_partner_polling_widgets_on_partner_id"
