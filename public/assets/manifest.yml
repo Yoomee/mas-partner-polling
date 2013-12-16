@@ -19,10 +19,10 @@ partner_polling/admin.js: partner_polling/admin-8cd805fce7c68ab7ab6b5f1431c2048f
 partner_polling/admin/index.js: partner_polling/admin-8cd805fce7c68ab7ab6b5f1431c2048f.js
 partner_polling/widget.js: partner_polling/widget-576eceb5d99cf1bd78ca65704f3287c0.js
 partner_polling/widget/index.js: partner_polling/widget-576eceb5d99cf1bd78ca65704f3287c0.js
-partner_polling/admin.css: partner_polling/admin-5ef62b0540ad72f168616ff7f76fe8e8.css
-partner_polling/admin/index.css: partner_polling/admin-5ef62b0540ad72f168616ff7f76fe8e8.css
-partner_polling/widget.css: partner_polling/widget-63d3046fef0258063d1c2529f177a715.css
-partner_polling/widget/index.css: partner_polling/widget-63d3046fef0258063d1c2529f177a715.css
+partner_polling/admin.css: partner_polling/admin-0fda42724326b0b9b629b8a47e870499.css
+partner_polling/admin/index.css: partner_polling/admin-0fda42724326b0b9b629b8a47e870499.css
+partner_polling/widget.css: partner_polling/widget-df512e18964e5c9206e4476d05dffad1.css
+partner_polling/widget/index.css: partner_polling/widget-df512e18964e5c9206e4476d05dffad1.css
 museo_slab_100-webfont.eot: museo_slab_100-webfont-05fdda83b091d685c53cabf896560381.eot
 museo_slab_100-webfont/index.eot: museo_slab_100-webfont-05fdda83b091d685c53cabf896560381.eot
 museo_slab_100-webfont.otf: museo_slab_100-webfont-f138bb069bc28a09634c93af1f56a13d.otf

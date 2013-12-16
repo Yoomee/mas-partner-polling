@@ -58,3 +58,11 @@ partners.each do |partner|
   widget.set_default_colors
   widget.save
 end
+
+PartnerPolling::Widget.all.each do |widget|
+  rand(100).times do |n|
+    vote = widget.votes.build(:answer_number => (1..widget.answers.size).to_a.sample)
+    vote.redirected = [true,false].sample
+    vote.save
+  end
+end
