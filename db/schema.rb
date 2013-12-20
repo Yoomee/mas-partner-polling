@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131210102813) do
+ActiveRecord::Schema.define(:version => 20131220101941) do
 
   create_table "partner_polling_partners", :force => true do |t|
     t.string   "name"
@@ -31,10 +31,18 @@ ActiveRecord::Schema.define(:version => 20131210102813) do
     t.datetime "updated_at",                    :null => false
   end
 
+  create_table "partner_polling_redirections", :force => true do |t|
+    t.integer  "widget_id"
+    t.integer  "vote_id"
+    t.integer  "answer_number"
+    t.datetime "created_at"
+  end
+
+  add_index "partner_polling_redirections", ["widget_id"], :name => "index_partner_polling_redirections_on_widget_id"
+
   create_table "partner_polling_votes", :force => true do |t|
     t.integer  "widget_id"
     t.integer  "answer_number"
-    t.boolean  "redirected",    :default => false
     t.datetime "created_at"
   end
 

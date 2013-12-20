@@ -62,7 +62,10 @@ end
 PartnerPolling::Widget.all.each do |widget|
   rand(100).times do |n|
     vote = widget.votes.build(:answer_number => (1..widget.answers.size).to_a.sample)
-    vote.redirected = [true,false].sample
     vote.save
+    vote.redirected! if [true,false].sample
+  end
+  rand(100).times do
+    widget.redirections.create
   end
 end

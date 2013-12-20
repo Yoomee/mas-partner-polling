@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
-  revision: 72d6cd43d5490275ec83198540d91dde1f8cfde1
+  revision: fb303ea20207f30aafc7e60be760598fd5a9df96
   specs:
     partner_polling (0.0.1)
       formtastic-bootstrap
@@ -127,7 +127,7 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.1.0)
+    rake (10.1.1)
     rdoc (3.12.2)
       json (~> 1.4)
     sass (3.2.12)
