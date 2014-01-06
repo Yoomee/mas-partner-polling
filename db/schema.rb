@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20131220101941) do
     t.integer  "widget_id"
     t.integer  "vote_id"
     t.integer  "answer_number"
+    t.string   "ip_address"
     t.datetime "created_at"
   end
 
@@ -43,6 +44,7 @@ ActiveRecord::Schema.define(:version => 20131220101941) do
   create_table "partner_polling_votes", :force => true do |t|
     t.integer  "widget_id"
     t.integer  "answer_number"
+    t.string   "ip_address"
     t.datetime "created_at"
   end
 
@@ -65,6 +67,7 @@ ActiveRecord::Schema.define(:version => 20131220101941) do
     t.string   "color_4"
     t.text     "default_call_to_action_text"
     t.text     "default_call_to_action_url"
+    t.string   "call_to_action_color"
     t.boolean  "logo",                        :default => true
     t.boolean  "see_results",                 :default => true
     t.datetime "created_at",                                    :null => false
