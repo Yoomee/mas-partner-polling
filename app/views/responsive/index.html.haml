@@ -1,0 +1,18 @@
+-dimensions = [[120,300], [160,600],[300, 250], [400, 360]]
+%table
+  %thead
+    %tr
+      %th
+      -['question', 'results'].each do |question_results|
+        -['Small', 'Medium', 'Large', 'Extra large'].each_with_index do |size, idx|
+          %th="#{size} #{question_results}"
+  %tbody
+    -[2,3,4].each do |answers|
+      %tr
+        %td
+          =answers
+          answers
+        -['question', 'results'].each do |question_results|
+          -dimensions.each do |width,height|
+            %td
+              %iframe{:src => "/widget/#{answers}#{'/votes' if question_results == 'results'}", :width => width, :height => height, :frameBorder => 0}
