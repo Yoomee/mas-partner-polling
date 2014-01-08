@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20131220170759) do
 
   create_table "partner_polling_partners", :force => true do |t|
     t.string   "name"
+    t.string   "slug"
     t.string   "color_1"
     t.string   "color_2"
     t.string   "color_3"
@@ -24,8 +25,11 @@ ActiveRecord::Schema.define(:version => 20131220170759) do
     t.datetime "updated_at",           :null => false
   end
 
+  add_index "partner_polling_partners", ["slug"], :name => "index_partner_polling_partners_on_slug", :unique => true
+
   create_table "partner_polling_polls", :force => true do |t|
     t.string   "name"
+    t.string   "slug"
     t.text     "question"
     t.string   "answer_1"
     t.string   "answer_2"
@@ -35,6 +39,8 @@ ActiveRecord::Schema.define(:version => 20131220170759) do
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
   end
+
+  add_index "partner_polling_polls", ["slug"], :name => "index_partner_polling_polls_on_slug", :unique => true
 
   create_table "partner_polling_redirections", :force => true do |t|
     t.integer  "widget_id"

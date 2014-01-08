@@ -8,5 +8,6 @@ MasPartnerPolling::Application.routes.draw do
   
   match 'error' => "errors#index"
   match 'responsive' => "responsive#index"
+  match 'widget/:answers(/:votes)' => "responsive#widget"
 
 end

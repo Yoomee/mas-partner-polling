@@ -12,24 +12,5 @@
  *= require_tree .
  */
 body{
-  font-family: courier;
-  background:#f7f7f7;
-}
-#iframe-wrapper {
-  position:absolute;
-  width:30%;
-  height:60%;
-  top:50%;
-  left:50%;
-  border:1px solid #ccc;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-}
-#dimensions {
-  position:absolute;
-  width:100px;
-  top:5%;
-  left:50%;
-  text-align:center;
-  margin-left:-50px;
+  background:#f1f1f2;
 }
