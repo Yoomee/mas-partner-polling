@@ -1,5 +1,5 @@
 -dimensions = [[120,300], [160,600],[300, 250], [400, 360]]
-%table
+%table.table-responsive
   %thead
     %tr
       %th
@@ -9,7 +9,7 @@
   %tbody
     -[2,3,4].each do |answers|
       %tr
-        %td
+        %td.answers-td
           =answers
           answers
         -['question', 'results'].each do |question_results|
