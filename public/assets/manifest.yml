@@ -17,8 +17,8 @@ partner_polling/mas-logo.png: partner_polling/mas-logo-75eb5fae2027a9bef39e7cd87
 partner_polling/mas-logo/index.png: partner_polling/mas-logo-75eb5fae2027a9bef39e7cd87d3b1ccd.png
 partner_polling/admin.js: partner_polling/admin-bd58d9a3efd0678390d96c0a8f1687eb.js
 partner_polling/admin/index.js: partner_polling/admin-bd58d9a3efd0678390d96c0a8f1687eb.js
-partner_polling/widget.js: partner_polling/widget-576eceb5d99cf1bd78ca65704f3287c0.js
-partner_polling/widget/index.js: partner_polling/widget-576eceb5d99cf1bd78ca65704f3287c0.js
+partner_polling/widget.js: partner_polling/widget-165b6fb98c0cbf475ec5dacdf3b72b17.js
+partner_polling/widget/index.js: partner_polling/widget-165b6fb98c0cbf475ec5dacdf3b72b17.js
 partner_polling/admin.css: partner_polling/admin-942ba798bbc9ab054c6743ee1d57a87c.css
 partner_polling/admin/index.css: partner_polling/admin-942ba798bbc9ab054c6743ee1d57a87c.css
 partner_polling/widget.css: partner_polling/widget-f1ec00f4bb28b263a898433b808bfd48.css
