@@ -14,3 +14,20 @@
 body{
   background:#f1f1f2;
 }
+.table-responsive th {
+	padding: 30px;
+	background: #fff;
+}
+.table-responsive td {
+  padding: 30px;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+.table-responsive td.answers-td {
+	padding: 30px;
+	background: #fff;
+	text-align: center;
+	font-weight: bold;
+  border-right:1px solid #fff;
+  border-bottom:1px solid #fff;	
+}
