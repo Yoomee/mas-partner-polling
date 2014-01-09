@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
-  revision: 7e7bcec1cd52d241a64efa1f6ae2646edbcdf9de
+  revision: ffbc76c7563a361b5e8feba26a3395afb03a210f
   specs:
     partner_polling (0.0.1)
       devise (~> 3.2.2)
