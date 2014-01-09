@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131220170759) do
+ActiveRecord::Schema.define(:version => 20140109092012) do
+
+  create_table "partner_polling_audit_records", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "resource_type"
+    t.string   "resource_id"
+    t.string   "action"
+    t.datetime "created_at"
+  end
+
+  add_index "partner_polling_audit_records", ["resource_type", "resource_id"], :name => "index_partner_polling_audit_records_on_resource"
 
   create_table "partner_polling_partners", :force => true do |t|
     t.string   "name"
