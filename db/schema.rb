@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140109092012) do
+ActiveRecord::Schema.define(:version => 20140109111556) do
 
   create_table "partner_polling_audit_records", :force => true do |t|
     t.integer  "user_id"
@@ -90,6 +90,15 @@ ActiveRecord::Schema.define(:version => 20140109092012) do
   end
 
   add_index "partner_polling_votes", ["widget_id"], :name => "index_partner_polling_votes_on_widget_id"
+
+  create_table "partner_polling_widget_hosts", :force => true do |t|
+    t.integer  "widget_id"
+    t.text     "url"
+    t.string   "name"
+    t.datetime "created_at"
+  end
+
+  add_index "partner_polling_widget_hosts", ["widget_id"], :name => "index_partner_polling_widget_hosts_on_widget_id"
 
   create_table "partner_polling_widgets", :force => true do |t|
     t.integer  "poll_id"
