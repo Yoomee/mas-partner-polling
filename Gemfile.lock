@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://ec328b2267bdb5056f966233dc2a43a1beb60e7c:x-oauth-basic@github.com/moneyadviceservice/partner_polling.git
-  revision: 823bb37e5fb985f0def51d3d16aca2b06e0c34b8
+  revision: f2a8ec9f8dec50aba3c522d8cc3e5a40daa706da
   specs:
     partner_polling (0.0.1)
       devise (~> 3.2.2)
@@ -115,7 +115,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    multi_json (1.8.2)
+    multi_json (1.8.4)
     newrelic_rpm (3.7.0.177)
     orm_adapter (0.5.0)
     pg (0.17.0)
