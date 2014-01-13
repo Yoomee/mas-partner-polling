@@ -13,6 +13,8 @@ partner_polling/bootstrap-colorpicker/hue.png: partner_polling/bootstrap-colorpi
 partner_polling/bootstrap-colorpicker/hue/index.png: partner_polling/bootstrap-colorpicker/hue-5442c4a1b533c80e045ba26a142c1e48.png
 partner_polling/bootstrap-colorpicker/saturation.png: partner_polling/bootstrap-colorpicker/saturation-ef06f89134cc9292c1d0a6918c3d1347.png
 partner_polling/bootstrap-colorpicker/saturation/index.png: partner_polling/bootstrap-colorpicker/saturation-ef06f89134cc9292c1d0a6918c3d1347.png
+partner_polling/favicon.ico: partner_polling/favicon-91238d8c5d31d6bfe7b064990239a0c0.ico
+partner_polling/favicon/index.ico: partner_polling/favicon-91238d8c5d31d6bfe7b064990239a0c0.ico
 partner_polling/mas-logo.png: partner_polling/mas-logo-75eb5fae2027a9bef39e7cd87d3b1ccd.png
 partner_polling/mas-logo/index.png: partner_polling/mas-logo-75eb5fae2027a9bef39e7cd87d3b1ccd.png
 partner_polling/admin.js: partner_polling/admin-8dea68c698e23a50cef8bc7271829147.js
