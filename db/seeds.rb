@@ -70,6 +70,6 @@ PartnerPolling::Widget.all.each do |widget|
   end
 end
 
-PartnerPolling::Partner.all.each {|r| r.record_activity(PartnerPolling::User.first,'created')}
-PartnerPolling::Poll.all.each {|r| r.record_activity(PartnerPolling::User.first,'created')}
-PartnerPolling::Widget.all.each {|r| r.record_activity(PartnerPolling::User.first,'created')}
+PartnerPolling::Partner.all.each {|r| r.record_activity(PartnerPolling::PollUser.first,'created')}
+PartnerPolling::Poll.all.each {|r| r.record_activity(PartnerPolling::PollUser.first,'created')}
+PartnerPolling::Widget.all.each {|r| r.record_activity(PartnerPolling::PollUser.first,'created')}
